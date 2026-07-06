@@ -1,4 +1,4 @@
-# 🌐 jackydev95
+# 🌐 jackydev95 | Senior Java Software Engineer
 
 <p align="center">
   <a href="https://t.me/jackydev95">
@@ -17,93 +17,95 @@
 
 ---
 
-## 🌟 Introduction & Project Vision
+## 🌟 About Me & Engineering Philosophy
 
-**JackyDev95** is a next-generation, high-performance blockchain platform engineered to empower developers and organizations to build, deploy, and scale decentralized applications (DApps). By combining enterprise-grade security, lightning-fast validation consensus, and robust EVM compatibility, JackyDev95 bridges the gap between traditional enterprise IT and modern decentralized finance.
+I am a **Senior Java Developer** specializing in building highly scalable, resilient, and enterprise-grade backend systems. I design and implement backend architectures using **Domain-Driven Design (DDD)** and **Hexagonal Architecture (Ports and Adapters)**, ensuring that the domain logic remains pure and decoupled from infrastructure and frameworks.
 
 ### 🛡️ Core Pillars
 
-- ⚡ **Ultra-High Throughput**: Consensus engine built for near-instant transaction finality.
-- 📦 **EVM Compatibility**: Full support for Solidity, Remix, and Hardhat out of the box.
-- 🧩 **Integrated DApp Suite**: Immediate access to non-custodial wallet, token swap AMM, token launchpad, and IDE.
-- 🔗 **Interoperable Design**: Native cross-chain messaging and token bridging protocols.
+- ⚡ **Domain-Driven Design**: Modeling rich domains, value objects, and aggregate roots to accurately reflect business rules.
+- 📦 **Hexagonal Architecture**: Strict separation of concerns (Presentation → Application → Domain ← Infrastructure) with clear dependency inversion.
+- 🧩 **Use Case & Port Patterns**: Encapsulating transaction orchestration and validating input boundaries cleanly.
+- 🔗 **Robust Integration**: Designing high-performance API portals, message queues, and caching systems.
 
 ---
 
-## 🧩 Ecosystem Modules
+## 🧩 Architectural Patterns & Implementation Standards
 
-| Module Name                | Icon | Description                                                               | Network Status |
-| :------------------------- | :--: | :------------------------------------------------------------------------ | :------------: |
-| **JackyDev95 Core**         |  🛡️  | High-speed consensus chain engine supporting fast validation slots.       |  `🟢 Active`   |
-| **JackyDev95 Wallet**       |  🔑  | Secure non-custodial gateway for managing tokens and account keys.        |  `🟢 Active`   |
-| **JackyDev95 Swap**         |  💱  | Instant liquidity AMM pool for token swap exchanges.                      |  `🟢 Active`   |
-| **JackyDev95 Scan**         |  🔍  | Interactive explorer to view transactions, contracts, and blocks.         |  `🟢 Active`   |
-| **Cloud Mining Simulator** |  ⛏️  | Simulate consensus participation and mine test JACKYDEV95 rewards directly.|  `🟢 Active`   |
-| **Token Creator Hub**      |  🛠️  | Clean ERC-20 utility token launchpad with custom configurations.          |  `🟢 Active`   |
-| **FVM IDE**                |  💻  | Integrated compiler for smart contract development and deployment.        |  `🟢 Active`   |
-| **NFT Hub & DAO**          |  🎨  | Decentralized marketplace and governance portal for the ecosystem.        |  `🔵 Planned`  |
+I adhere to strict software design patterns to ensure maximum maintainability, testability, and decoupling:
+
+| Architectural Pattern | Status | Description | Standard Implementation |
+| :--- | :---: | :--- | :---: |
+| **Domain Isolation** | 🟢 Active | Domain layer has zero dependencies on frameworks, databases, or external services. | Pure Java |
+| **Repository Pattern** | 🟢 Active | Interface defined in `domain/repository/`, JPA implementations in `infrastructure/persistence/`. | Spring Data JPA / Hibernate |
+| **Use Case Pattern** | 🟢 Active | Dedicated input command validation, core business logic orchestration, and output results. | Port In / UseCaseImpl |
+| **Port Out Pattern** | 🟢 Active | Outward ports defined in Application layer *only* for external integrations (SMS, Mail, Payments). | Web Clients / SDK Adapters |
+| **Hexagonal Routing** | 🟢 Active | Controllers map REST/GraphQL requests to Command DTOs and return Responses mapped from Result DTOs. | Spring MVC / GraphQL |
+| **Test-Driven Design** | 🟢 Active | 100% coverage on domain logic and application services using mocks and fixtures. | JUnit 5 / Mockito |
 
 ---
 
 ## 🛠️ Technology & Infrastructure Stack
 
-### Frontend & Core Integration
+### Languages & Frameworks
 
 <p align="left">
-  <img alt="Javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img alt="NextJs" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-  <img alt="Web3" src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white" />
-  <img alt="Solidity" src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
+  <img alt="Spring Security" src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img alt="Hibernate" src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+  <img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 </p>
 
-### DevOps, Backend & Orchestration
+### Infrastructure, Caching & Cloud
 
 <p align="left">
-  <img alt="Nodejs" src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" />
-  <img alt="Traefik" src="https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefik&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-DD0031?style=flat-square&logo=redis&logoColor=white" />
-  <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-CC0000?style=for-the-badge&logo=redis&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img alt="Kafka" src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" />
+  <img alt="Traefik" src="https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefik&logoColor=white" />
 </p>
 
 ---
 
-## ⚙️ Architecture Deep-Dive
+## ⚙️ Architecture & Design Patterns Deep-Dive
 
 <details>
-<summary><b>🔥 Cloud & Serverless Microservices</b></summary>
+<summary><b>🔥 Spring Boot Domain-Driven Design (DDD)</b></summary>
 
-- **AWS AppSync (GraphQL)** – Annotated schema compiled into role-scoped APIs, backed by high-performance VTL request/response resolvers.
-- **AWS Lambda (TypeScript/Node.js)** – Multi-service Monorepo structure, modular compilation via `Nx` and optimized tree-shaking with `esbuild`.
-- **AWS Step Functions** – Orchestration for transactional states (multi-step order processing, payouts, reward distributions).
-- **Infrastructure as Code (IaC)** – Automated workspace configurations managed via `Terraform` / `OpenTofu` environments.
+- **Clean Layer Separation** – Strict flow: `Presentation` (REST Controllers) → `Application` (Use Cases) → `Domain` (Core Models) ← `Infrastructure` (JPA/Adapters).
+- **Dependency Inversion** – Domain layer has zero dependencies on databases or frameworks. Interface adapters handle concrete data operations.
+- **Transactional Consistency** – Application layer manages transactional boundaries `@Transactional` coordinating entities and domain repositories.
 </details>
 
 <details>
-<summary><b>💾 Distributed Databases, Events & Caching</b></summary>
+<summary><b>💾 Persistence, Caching & Event Sourcing</b></summary>
 
-- **Amazon DynamoDB** – Advanced single-table schema design utilizing composite primary keys (PK/SK), Global Secondary Indexes (GSIs), streams, and automated TTL.
-- **Dual-Layer Caching** – In-memory hot cache combined with horizontal Redis cluster configurations for millisecond read latency.
-- **Relational & Analytical Engines** – PostgreSQL storage for structured finance states, clickhouse analytics, and vector search indexing.
-- **Message Broker Ecosystem** – Real-time event streaming powered by DynamoDB Streams, AWS SQS, and Kinesis pipelines.
+- **JPA & Hibernate Mapping** – Clear separation of JPA entities (`infrastructure/persistence/entity/`) and pure domain models (`domain/model/`).
+- **Distributed Caching** – Dual-layer cache strategy using localized Spring cache and centralized `Redis` cluster configuration.
+- **Relational & NoSQL Systems** – High-performance transactional persistence with `PostgreSQL` and single-table DynamoDB layouts.
+- **Event-Driven Messaging** – Real-time event propagation via `Apache Kafka` topic publishers and async listener ports.
 </details>
 
 <details>
-<summary><b>🛡️ Security, Routing & DevOps Telemetry</b></summary>
+<summary><b>🛡️ Security, Testing & DevOps Orchestration</b></summary>
 
-- **Edge Gateway & Routing** – Traefik reverse proxy configuration supporting TLS termination, load-balancing, and microservices routing.
-- **Comprehensive Monitoring** – Grafana metrics and telemetry dashboards parsing application health and container usage logs.
-- **Third-Party Service Integrations** – Stripe for payments, Pusher for instant socket alerts, Cognito IAM user authentication, and Sentry telemetry.
-- **Test Suites** – Continuous Integration using Jest (unit and database integration suites) and Vitest for browser end-to-end automation.
+- **OAuth2 & JWT Security** – Role-Based Access Control (RBAC) and security filters configured via Spring Security.
+- **Rigorous Test Suites** – High-coverage JUnit 5 unit testing with Mockito mocks, and Spring Boot integration tests utilizing Testcontainers.
+- **Infrastructure as Code (IaC)** – Automated cloud deployment via AWS ECS, Kubernetes configurations, and Terraform modules.
+- **Telemetry & Monitoring** – Live application metrics using Prometheus, Micrometer, and Grafana telemetry dashboards.
 </details>
 
 ---
 
-## 🤖 AI & Autonomous Agents
+## 🤖 AI-Native Engineering
 
-JackyDev95 leverages cutting-edge autonomous engineering models to build, maintain, and optimize smart contracts.
+I leverage cutting-edge autonomous engineering models to build, maintain, and optimize software systems.
 
 <details>
 <summary><b>🤖 Google Antigravity & Agentic AI</b></summary>
@@ -120,38 +122,34 @@ JackyDev95 leverages cutting-edge autonomous engineering models to build, mainta
 - [**Claude AI**](https://claude.ai/new) – Advanced logic reasoning and context modeling helper.
 - [**ChatGPT**](https://openai.com/chatgpt/) – Broad multitasking and creative prompt modeling assistant.
 - [**Replit AI**](https://replit.com) – Cloud-hosted IDE featuring visual sandbox environments.
-
-- [**Skills AI**](https://www.skills.sh) – Skills AI Hub.
 </details>
 
 ---
 
-## 🔗 Developer Resources
+## 🔗 Developer Resources & Reference Guides
 
 <details>
-<summary><b>🛠️ Smart Contract & Web3 libraries</b></summary>
+<summary><b>☕ Java & Spring Framework Reference</b></summary>
 
-- [**Hardhat Toolkit**](https://hardhat.org/) – Local developer environment for debugging and building Ethereum-compatible contracts.
-- [**Remix Online IDE**](https://remix.ethereum.org) – Browser-based compiler and sandbox for direct contract deployments.
-- [**Ganache Local Blockchain**](https://archive.trufflesuite.com/ganache/) – Personal blockchain for Ethereum development used to deploy contracts, develop applications, and run tests.
-- [**Alchemy & Infura RPCs**](https://www.alchemy.com) – Dedicated RPC node gateway infrastructure.
-- [**Web3.js SDK docs**](https://web3js.readthedocs.io) – Official JavaScript client documentation.
+- [**Spring Boot Docs**](https://spring.io/projects/spring-boot) – Official Spring Boot documentation and reference guides.
+- [**Baeldung Tutorials**](https://www.baeldung.com/) – Excellent Java and Spring framework tutorials.
+- [**Refactoring.Guru**](https://refactoring.guru/) – Visual guide to software design patterns and refactoring techniques.
+- [**Architecture Patterns Guide**](https://github.com/iluwatar/java-design-patterns) – Standard Java design patterns implementation library.
 </details>
 
 <details>
 <summary><b>🌐 Cloud Integrations & Networks</b></summary>
 
-- [**AWS S3 Console**](https://aws.amazon.com/s3/) – Scalable cloud object storage.
-- [**DigitalOcean Control Panel**](https://cloud.digitalocean.com/) – Lightweight cloud VMs.
-- [**Cloudflare Portal**](https://dash.cloudflare.com) – Secure CDNs, DDoS protection, and SSL gateway management.
+- [**AWS SDK for Java**](https://aws.amazon.com/sdk-for-java/) – Developer resources for AWS integration.
+- [**Docker Hub Portal**](https://hub.docker.com/) – Custom image orchestration and container publishing.
 - [**Confluent Cloud**](https://confluent.cloud) – Apache Kafka cloud instances for message distribution.
+- [**Cloudflare Portal**](https://dash.cloudflare.com) – Secure CDNs, DDoS protection, and SSL gateway management.
 </details>
 
 <details>
-<summary><b>📚 Documentation & Security Audits</b></summary>
+<summary><b>📚 Documentation & Standards</b></summary>
 
-- [**Solidity by Example**](https://solidity-by-example.org) – Code snippets demonstrating core Solidity syntax.
 - [**Conventional Commits Standard**](https://conventionalcommits.org) – Specifications for structural git commits.
+- [**Twelve-Factor App Methodology**](https://12factor.net/) – Best practices for building modern, cloud-native applications.
 - [**HackTricks Handbook**](https://book.hacktricks.xyz) – Cyber security checklists and penetration testing methodologies.
-- [**Moralis SDK docs**](https://moralis.io) – Enterprise Web3 API integration documentation.
 </details>
