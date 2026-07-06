@@ -30,16 +30,6 @@
 
 ---
 
-## 🚀 Live Applications & Demos
-
-Below are the official portals and live decentralized applications within the JackyDev95 network. All links open in a new tab:
-
-- 🌐 [**Official JackyDev95 Portal**](https://jackydev95.online/) – Central entry point, network status dashboard, and developer portal.
-- 💱 [**Decentralized Swap (DEX)**](https://dex.jackydev95.online) – Instant token swaps and automated market maker (AMM) liquidity pools.
-- 📈 [**Professional Exchange**](https://exchange.jackydev95.online) – Advanced order books, charting tools, and high-frequency trading interface.
-
----
-
 ## 🧩 Ecosystem Modules
 
 | Module Name                | Icon | Description                                                               | Network Status |
