@@ -1,4 +1,4 @@
-# 🌐 jackydev95 | Senior Java Software Engineer
+# 🌐 JackyDev95 | Senior Java Software Engineer
 
 <p align="center">
   <a href="https://t.me/jackydev95">
