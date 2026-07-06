@@ -1,16 +1,16 @@
-# 🌐 Jacky Developer
+# 🌐 jackydev95
 
 <p align="center">
-  <a href="https://t.me/jackycapital">
+  <a href="https://t.me/jackydev95">
     <img src="https://img.shields.io/badge/Telegram-Join%20Us-26A69A?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
   </a>
-  <a href="https://jacky.online/">
+  <a href="https://jackydev95.online/">
     <img src="https://img.shields.io/badge/Website-Visit%20Site-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
   </a>
-  <a href="https://github.com/jackyrgp">
-    <img src="https://img.shields.io/github/followers/jackyrgp?label=Followers&style=for-the-badge&logo=github&color=2196F3&logoColor=white" alt="Followers">
+  <a href="https://github.com/jackydev95">
+    <img src="https://img.shields.io/github/followers/jackydev95?label=Followers&style=for-the-badge&logo=github&color=2196F3&logoColor=white" alt="Followers">
   </a>
-  <a href="https://github.com/jackyrgp?tab=following">
+  <a href="https://github.com/jackydev95?tab=following">
     <img src="https://img.shields.io/badge/Following-30.2K-FF9800?style=for-the-badge&logo=github&logoColor=white" alt="Following">
   </a>
 </p>
@@ -19,7 +19,7 @@
 
 ## 🌟 Introduction & Project Vision
 
-**Jacky** is a next-generation, high-performance blockchain platform engineered to empower developers and organizations to build, deploy, and scale decentralized applications (DApps). By combining enterprise-grade security, lightning-fast validation consensus, and robust EVM compatibility, Jacky bridges the gap between traditional enterprise IT and modern decentralized finance.
+**JackyDev95** is a next-generation, high-performance blockchain platform engineered to empower developers and organizations to build, deploy, and scale decentralized applications (DApps). By combining enterprise-grade security, lightning-fast validation consensus, and robust EVM compatibility, JackyDev95 bridges the gap between traditional enterprise IT and modern decentralized finance.
 
 ### 🛡️ Core Pillars
 
@@ -32,26 +32,26 @@
 
 ## 🚀 Live Applications & Demos
 
-Below are the official portals and live decentralized applications within the Jacky network. All links open in a new tab:
+Below are the official portals and live decentralized applications within the JackyDev95 network. All links open in a new tab:
 
-- 🌐 [**Official Jacky Portal**](https://jacky.online/) – Central entry point, network status dashboard, and developer portal.
-- 💱 [**Decentralized Swap (DEX)**](https://dex.jacky.online) – Instant token swaps and automated market maker (AMM) liquidity pools.
-- 📈 [**Professional Exchange**](https://exchange.jacky.online) – Advanced order books, charting tools, and high-frequency trading interface.
+- 🌐 [**Official JackyDev95 Portal**](https://jackydev95.online/) – Central entry point, network status dashboard, and developer portal.
+- 💱 [**Decentralized Swap (DEX)**](https://dex.jackydev95.online) – Instant token swaps and automated market maker (AMM) liquidity pools.
+- 📈 [**Professional Exchange**](https://exchange.jackydev95.online) – Advanced order books, charting tools, and high-frequency trading interface.
 
 ---
 
 ## 🧩 Ecosystem Modules
 
-| Module Name                | Icon | Description                                                            | Network Status |
-| :------------------------- | :--: | :--------------------------------------------------------------------- | :------------: |
-| **Jacky Core**             |  🛡️  | High-speed consensus chain engine supporting fast validation slots.    |  `🟢 Active`   |
-| **Jacky Wallet**           |  🔑  | Secure non-custodial gateway for managing tokens and account keys.     |  `🟢 Active`   |
-| **Jacky Swap**             |  💱  | Instant liquidity AMM pool for token swap exchanges.                   |  `🟢 Active`   |
-| **Jacky Scan**             |  🔍  | Interactive explorer to view transactions, contracts, and blocks.      |  `🟢 Active`   |
-| **Cloud Mining Simulator** |  ⛏️  | Simulate consensus participation and mine test JACKY rewards directly. |  `🟢 Active`   |
-| **Token Creator Hub**      |  🛠️  | Clean ERC-20 utility token launchpad with custom configurations.       |  `🟢 Active`   |
-| **FVM IDE**                |  💻  | Integrated compiler for smart contract development and deployment.     |  `🟢 Active`   |
-| **NFT Hub & DAO**          |  🎨  | Decentralized marketplace and governance portal for the ecosystem.     |  `🔵 Planned`  |
+| Module Name                | Icon | Description                                                               | Network Status |
+| :------------------------- | :--: | :------------------------------------------------------------------------ | :------------: |
+| **JackyDev95 Core**         |  🛡️  | High-speed consensus chain engine supporting fast validation slots.       |  `🟢 Active`   |
+| **JackyDev95 Wallet**       |  🔑  | Secure non-custodial gateway for managing tokens and account keys.        |  `🟢 Active`   |
+| **JackyDev95 Swap**         |  💱  | Instant liquidity AMM pool for token swap exchanges.                      |  `🟢 Active`   |
+| **JackyDev95 Scan**         |  🔍  | Interactive explorer to view transactions, contracts, and blocks.         |  `🟢 Active`   |
+| **Cloud Mining Simulator** |  ⛏️  | Simulate consensus participation and mine test JACKYDEV95 rewards directly.|  `🟢 Active`   |
+| **Token Creator Hub**      |  🛠️  | Clean ERC-20 utility token launchpad with custom configurations.          |  `🟢 Active`   |
+| **FVM IDE**                |  💻  | Integrated compiler for smart contract development and deployment.        |  `🟢 Active`   |
+| **NFT Hub & DAO**          |  🎨  | Decentralized marketplace and governance portal for the ecosystem.        |  `🔵 Planned`  |
 
 ---
 
@@ -113,7 +113,7 @@ Below are the official portals and live decentralized applications within the Ja
 
 ## 🤖 AI & Autonomous Agents
 
-Jacky leverages cutting-edge autonomous engineering models to build, maintain, and optimize smart contracts.
+JackyDev95 leverages cutting-edge autonomous engineering models to build, maintain, and optimize smart contracts.
 
 <details>
 <summary><b>🤖 Google Antigravity & Agentic AI</b></summary>
